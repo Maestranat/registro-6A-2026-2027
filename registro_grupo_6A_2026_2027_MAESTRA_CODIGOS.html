@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Registro Grupo 6°A | 2026-2027</title>
+<style>
+:root{--bg:#fffdf9;--ink:#20212a;--muted:#747785;--card:#fff;--line:#e9e7e2;--aqua:#72d5c5;--purple:#b978df;--yellow:#f5c52b;--pink:#ec718f;--magenta:#df68c6;--blue:#3275c8;--green:#20a56b;--red:#df536d;--shadow:0 7px 22px rgba(42,37,58,.09);--radius:18px}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+header{background:white;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.head{max-width:1500px;margin:auto;padding:18px 25px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:22px;font-weight:900}.logo b{color:var(--purple)}.logo small{display:block;font-size:12px;color:var(--muted);font-weight:600}
+.menu{display:flex;gap:6px;overflow:auto;padding:0 25px 12px;max-width:1500px;margin:auto}.menu button{border:0;background:#f4f3f7;padding:9px 13px;border-radius:12px;white-space:nowrap;font-weight:700;color:#55596a;cursor:pointer}.menu button.active,.menu button:hover{background:#24243a;color:#fff}
+main{max-width:1500px;margin:auto;padding:25px}.page{display:none}.page.active{display:block}.hero{background:linear-gradient(120deg,#e5faf6,#f8effc,#fff6d6);border-radius:24px;padding:28px;margin-bottom:18px;box-shadow:var(--shadow)}h1{margin:0;font-size:32px}.hero p{margin:7px 0 0;color:#606477}.date{font-weight:700;margin-top:13px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:19px;box-shadow:var(--shadow)}.stat .emoji{float:right;font-size:27px}.stat small{color:var(--muted)}.stat strong{display:block;font-size:29px;margin-top:6px}
+.two{grid-template-columns:1.6fr 1fr}.section{margin-top:20px}.title{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}.title h2{margin:0;font-size:19px}
+.btn{border:0;border-radius:11px;padding:10px 14px;font-weight:800;cursor:pointer;background:#25263b;color:#fff}.btn.aqua{background:#e2f8f4;color:#187d70}.btn.purple{background:#f1e5fa;color:#7b43a5}.btn.yellow{background:#fff3c9;color:#8d6900}.btn.pink{background:#fde7ed;color:#a93c59}.btn.gray{background:#eef0f4;color:#555d6d}
+.schedule{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.day{overflow:hidden}.day h3{margin:0;padding:11px;text-align:center;color:white}.day:nth-child(1) h3{background:var(--aqua)}.day:nth-child(2) h3{background:var(--purple)}.day:nth-child(3) h3{background:var(--yellow);color:#342d00}.day:nth-child(4) h3{background:var(--pink)}.day:nth-child(5) h3{background:var(--magenta)}.slot{padding:9px;border-top:1px solid var(--line);display:flex;gap:8px;font-size:12px}.slot b{min-width:72px;color:var(--muted)}.recess{background:#faf7ef}.todayday{outline:3px solid #24243a;outline-offset:2px}
+.tablewrap{overflow:auto}.table{width:100%;border-collapse:collapse}.table th,.table td{padding:11px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}.table th{font-size:11px;color:var(--muted);text-transform:uppercase}.badge{padding:5px 9px;border-radius:999px;font-size:12px;font-weight:800}.ok{background:#e5f7ee;color:#197b4e}.no{background:#fde8ec;color:#b43d55}.late{background:#fff1c9;color:#8d6900}
+.studentgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(245px,1fr));gap:14px}.student{position:relative}.avatar{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#eee9fb;color:#7144a4;font-weight:900}.shead{display:flex;gap:12px;align-items:center}.student h3{font-size:15px;margin:0}.student small{color:var(--muted)}.studentstats{display:flex;justify-content:space-between;margin-top:16px}.studentstats div{font-size:11px;color:var(--muted)}.studentstats b{display:block;font-size:17px;color:var(--ink)}
+.toolbar{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:15px}.toolbar input,.toolbar select,.form input,.form select,.form textarea{border:1px solid var(--line);border-radius:10px;padding:10px;background:white;width:auto}.form label{display:block;font-size:12px;font-weight:800;margin:11px 0 5px}.form input,.form select,.form textarea{width:100%}.form textarea{min-height:80px}
+.incognito{text-align:center;padding:34px}.spy{font-size:70px}.mystery{font-size:29px;font-weight:900;margin:12px}.history{margin-top:25px;text-align:left}.empty{text-align:center;padding:30px;color:var(--muted)}
+.modal{display:none;position:fixed;inset:0;background:#20202a99;z-index:20;place-items:center;padding:20px}.modal.show{display:grid}.modalbox{background:white;border-radius:22px;padding:24px;width:min(520px,100%)}
+@media(max-width:950px){.grid{grid-template-columns:repeat(2,1fr)}.schedule{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.head{padding:14px}.menu{padding-left:14px}.hero h1{font-size:25px}main{padding:14px}.grid{grid-template-columns:1fr 1fr}.schedule{grid-template-columns:1fr}.two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="head"><div class="logo">📚 Registro <b>Grupo 6°A</b><small>Ciclo escolar 2026–2027 · 26 alumnos</small></div><div id="now"></div></div>
+<nav class="menu">
+<button class="active" data-page="inicio">🏠 Inicio</button><button data-page="alumnos">👧🏻 Alumnos</button><button data-page="asistencia">📅 Asistencia</button><button data-page="trabajo">📚 Trabajo</button><button data-page="calificaciones">📊 Calificaciones</button><button data-page="tareas">📝 Tareas</button><button data-page="accesos">🔐 Códigos</button><button data-page="comportamiento">🤝 Comportamiento</button><button data-page="proyectos">📁 Proyectos</button><button data-page="puntos">⭐ Puntos</button><button data-page="incognito">🕵️ Incógnito</button>
+</nav></header>
+<main>
+<section id="inicio" class="page active">
+<div class="hero"><h1>Registro de grupo 6°A</h1><p>Seguimiento diario de asistencia, trabajo, comportamiento, proyectos, puntos y dinámicas.</p><div class="date" id="date"></div></div>
+<div class="grid" id="stats"></div>
+<div class="section"><div class="title"><h2>🗓️ Horario semanal</h2><button class="btn gray" onclick="go('asistencia')">Registrar asistencia</button></div><div id="schedule" class="schedule"></div></div>
+<div class="section grid two"><div class="card"><div class="title"><h2>📌 Para hoy</h2></div><div id="todayList"></div></div><div class="card"><div class="title"><h2>🕵️ Alumno incógnito</h2><button class="btn purple" onclick="go('incognito')">Abrir</button></div><div id="homeMystery"></div></div></div>
+</section>
+
+<section id="alumnos" class="page"><div class="title"><h2>👧🏻👦🏻 Alumnos del 6°A</h2><button class="btn" onclick="openStudent()">+ Agregar</button></div><div class="toolbar"><input id="search" placeholder="Buscar por nombre..." oninput="renderStudents()"></div><div id="students" class="studentgrid"></div></section>
+
+<section id="asistencia" class="page"><div class="title"><h2>📅 Asistencia</h2></div><div class="toolbar"><input type="date" id="attDate" onchange="renderAttendance()"><button class="btn aqua" onclick="markAll('P')">✓ Todos presentes</button></div><div class="card tablewrap"><table class="table"><thead><tr><th>Alumno</th><th>Estado</th><th>Registrar</th></tr></thead><tbody id="attendanceBody"></tbody></table></div></section>
+
+<section id="trabajo" class="page"><div class="title"><h2>📚 Trabajo diario</h2><button class="btn" onclick="openWork()">+ Registrar trabajo</button></div><div class="toolbar"><input type="date" id="workDate" onchange="renderWork()"><select id="subjectFilter" onchange="renderWork()"><option value="">Todas las materias</option></select></div><div class="card tablewrap"><table class="table"><thead><tr><th>Fecha</th><th>Alumno</th><th>Materia</th><th>Actividad</th><th>Resultado</th><th>Observación</th></tr></thead><tbody id="workBody"></tbody></table></div></section>
+
+
+<section id="calificaciones" class="page">
+  <div class="title">
+    <h2>📊 Calificaciones</h2>
+    <div>
+      <button class="btn aqua" onclick="openGrade()">+ Registrar calificación</button>
+      <button class="btn purple" onclick="openTask()">+ Registrar tarea</button>
+    </div>
+  </div>
+  <div class="card" style="margin-bottom:15px">
+    <h3 style="margin-top:0">Ponderación</h3>
+    <div class="grid" style="grid-template-columns:repeat(6,1fr)">
+      <div><b>Trabajos</b><br>40%</div>
+      <div><b>Examen</b><br>30%</div>
+      <div><b>Comportamiento</b><br>10%</div>
+      <div><b>Participación</b><br>5%</div>
+      <div><b>Asistencia</b><br>5%</div>
+      <div><b>Tareas</b><br>10%</div>
+    </div>
+    <p style="color:var(--muted);margin-bottom:0">
+      Los porcentajes de cada rubro se normalizan tomando como referencia la calificación/resultado más alto registrado entre los alumnos.
+    </p>
+  </div>
+  <div class="toolbar">
+    <input id="gradeSearch" placeholder="Buscar alumno..." oninput="renderGrades()">
+  </div>
+  <div class="card tablewrap">
+    <table class="table">
+      <thead><tr>
+        <th>Alumno</th><th>Trabajos 40%</th><th>Tareas 10%</th><th>Examen 30%</th>
+        <th>Comportamiento 10%</th><th>Participación 5%</th><th>Asistencia 5%</th>
+        <th>Final 100%</th>
+      </tr></thead>
+      <tbody id="gradesBody"></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="tareas" class="page">
+  <div class="title"><h2>📝 Tareas</h2><button class="btn purple" onclick="openTask()">+ Registrar tarea</button></div>
+  <div class="card tablewrap">
+    <table class="table">
+      <thead><tr><th>Fecha</th><th>Alumno</th><th>Tarea</th><th>Resultado</th><th>Observación</th></tr></thead>
+      <tbody id="tasksBody"></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="comportamiento" class="page"><div class="title"><h2>🤝 Comportamiento y observaciones</h2><button class="btn" onclick="openBehavior()">+ Registrar</button></div><div class="card tablewrap"><table class="table"><thead><tr><th>Fecha</th><th>Alumno</th><th>Tipo</th><th>Observación</th></tr></thead><tbody id="behaviorBody"></tbody></table></div></section>
+
+<section id="proyectos" class="page"><div class="title"><h2>📁 Proyectos</h2><button class="btn" onclick="openProject()">+ Nuevo proyecto</button></div><div id="projects" class="studentgrid"></div></section>
+
+<section id="puntos" class="page"><div class="title"><h2>⭐ Puntos extra</h2><button class="btn" onclick="openPoints()">+ Otorgar puntos</button></div><div class="card tablewrap"><table class="table"><thead><tr><th>Fecha</th><th>Alumno</th><th>Puntos</th><th>Motivo</th></tr></thead><tbody id="pointsBody"></tbody></table></div></section>
+
+<section id="incognito" class="page"><div class="card incognito"><div class="spy">🕵️</div><h2>Alumno incógnito</h2><p id="mText">Elige un alumno al azar y mantén su identidad en secreto hasta después del recreo.</p><div id="mName" class="mystery">🔒 OCULTO</div><button class="btn purple" onclick="pickMystery()">🎲 Elegir alumno</button> <button class="btn yellow" onclick="revealMystery()">👀 Revelar</button><div id="mActions" style="margin-top:18px;display:none"><button class="btn aqua" onclick="finishMystery(1)">⭐ +1 punto</button> <button class="btn purple" onclick="finishMystery(2)">⭐ +2 puntos</button> <button class="btn gray" onclick="finishMystery(0)">Sin puntos</button></div><div class="history"><h3>Historial</h3><div class="tablewrap"><table class="table"><thead><tr><th>Fecha</th><th>Alumno</th><th>Puntos</th></tr></thead><tbody id="mHistory"></tbody></table></div></div></div></section>
+
+<section id="accesos" class="page">
+  <div class="title"><h2>🔐 Códigos para padres</h2><button class="btn purple" onclick="generateCodes()">Generar códigos</button></div>
+  <div class="card">
+    <p style="color:var(--muted)">Cada código corresponde a un solo alumno. Entrégalo únicamente a su familia. Los códigos se guardan en este navegador.</p>
+    <div class="toolbar"><button class="btn gray" onclick="printCodes()">🖨️ Imprimir lista</button><button class="btn pink" onclick="clearCodes()">Borrar códigos</button></div>
+    <div class="tablewrap"><table class="table"><thead><tr><th>Alumno</th><th>Código</th></tr></thead><tbody id="codesBody"></tbody></table></div>
+  </div>
+</section>
+</main>
+<div class="modal" id="modal"><div class="modalbox" id="modalbox"></div></div>
+<script>
+const initial={"students": [{"id": 1, "name": "AGUAYO MARQUEZ ARIA VICTORIA", "group": "6°A"}, {"id": 2, "name": "ARZATE PEREZ ALMENDRA ISAAMAR", "group": "6°A"}, {"id": 3, "name": "ARZATE PEREZ SERGIO OBED", "group": "6°A"}, {"id": 4, "name": "BACA ARREOLA IKER EMILIO", "group": "6°A"}, {"id": 5, "name": "DELGADO MORALES DIEGO SALLUM", "group": "6°A"}, {"id": 6, "name": "FAVELA CARDOZA CARLOS DANIEL", "group": "6°A"}, {"id": 7, "name": "GARCIA SEPULVEDA SAMANTHA JANETH", "group": "6°A"}, {"id": 8, "name": "GONZALEZ LOMAS JULIAN FERNANDO", "group": "6°A"}, {"id": 9, "name": "GUADERRAMA HERRERA ADAN ESTEBAN", "group": "6°A"}, {"id": 10, "name": "HERNANDEZ PARADA ALEXA VICTORIA", "group": "6°A"}, {"id": 11, "name": "IBARRA AYALA ARANZA LINETH", "group": "6°A"}, {"id": 12, "name": "LOPEZ VIRAMONTES AARON ADRIAN", "group": "6°A"}, {"id": 13, "name": "MADRID CAMPAS EMILY CAMILA", "group": "6°A"}, {"id": 14, "name": "MARTINEZ GASTELUM ISSAC ELIAS", "group": "6°A"}, {"id": 15, "name": "MARTINEZ RAMIREZ EMILY AIMEE", "group": "6°A"}, {"id": 16, "name": "MONTES MACIAS YURIXA GUADALUPE", "group": "6°A"}, {"id": 17, "name": "MURILLO VILLALOBOS JAIME RAMON", "group": "6°A"}, {"id": 18, "name": "NOCHE BORREGO MEGAN NAHOMI", "group": "6°A"}, {"id": 19, "name": "OLIVAS MORALES DEREK JOAO", "group": "6°A"}, {"id": 20, "name": "ORTEGA HOLGUIN YAEL", "group": "6°A"}, {"id": 21, "name": "RIVERA ESTRADA CHRISTIAN DAVID", "group": "6°A"}, {"id": 22, "name": "SALINAS CHAPARRO JENNIFER", "group": "6°A"}, {"id": 23, "name": "VARGAS DUARTE YAHEL", "group": "6°A"}, {"id": 24, "name": "VILLARREAL TOBANCHE EDEN ALEJANDRO", "group": "6°A"}, {"id": 25, "name": "ZAMBRANO VENEGAS MILAN ABDIEL", "group": "6°A"}, {"id": 26, "name": "ZARAGOZA TELLEZ CHRISTOPHER ELIA", "group": "6°A"}], "schedule": {"lunes": [["1:30 - 2:20", "ED. FÍSICA"], ["2:20 - 3:10", "COMUNICACIÓN"], ["3:10 - 4:00", "LENGUAJES"], ["4:00 - 4:30", "RECREO"], ["4:30 - 5:15", "SABERES"], ["5:15 - 6:00", "ÉTICA"]], "martes": [["1:30 - 2:20", "MATEMÁTICAS"], ["2:20 - 3:10", "LENGUAJES"], ["3:10 - 4:00", "SABERES"], ["4:00 - 4:30", "RECREO"], ["4:30 - 5:15", "ENGLISH"], ["5:15 - 6:00", "ED. FÍSICA"]], "miércoles": [["1:30 - 2:20", "COMUNICACIÓN"], ["2:20 - 3:10", "ENGLISH"], ["3:10 - 4:00", "LENGUAJES"], ["4:00 - 4:30", "RECREO"], ["4:30 - 5:15", "SABERES"], ["5:15 - 6:00", "ÉTICA"]], "jueves": [["1:30 - 2:20", "D.A.R.E"], ["2:20 - 3:10", "MATEMÁTICAS"], ["3:10 - 4:00", "ENGLISH"], ["4:00 - 4:30", "RECREO"], ["4:30 - 5:15", "LENGUAJES"], ["5:15 - 6:00", "SABERES"]], "viernes": [["1:30 - 2:20", "COMUNICACIÓN"], ["2:20 - 3:10", "LENGUAJES"], ["3:10 - 4:00", "SABERES"], ["4:00 - 4:30", "RECREO"], ["4:30 - 5:15", "ÉTICA"], ["5:15 - 6:00", "AC. DINÁMICA"]]}, "attendance": {}, "work": [], "tasks": [], "grades": [], "behavior": [], "projects": [], "points": [], "mystery": [], "currentMystery": null};
+const KEY='registro_6A_2026_2027_v3'; let db=JSON.parse(localStorage.getItem(KEY)||'null')||initial; db.tasks??=[]; db.grades??=[];
+const subjects=[...new Set(Object.values(db.schedule).flat().map(x=>x[1]).filter(x=>x!=='RECREO'))];
+const dayNames=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+function save(){localStorage.setItem(KEY,JSON.stringify(db))}
+function today(){return new Date().toISOString().slice(0,10)}
+function fmt(d){return new Date(d+'T12:00:00').toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'})}
+function nm(id){return db.students.find(s=>s.id==id)?.name||'Alumno'}
+function initials(n){return n.split(' ').slice(0,2).map(x=>x[0]).join('')}
+function go(p){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(p).classList.add('active');document.querySelectorAll('.menu button').forEach(x=>x.classList.toggle('active',x.dataset.page===p));renderAll()}
+document.querySelectorAll('.menu button').forEach(b=>b.onclick=()=>go(b.dataset.page));
+function renderAll(){renderStats();renderSchedule();renderStudents();renderAttendance();renderWork();renderTasks();renderGrades();renderBehavior();renderProjects();renderPoints();renderMystery();renderToday(); if(document.getElementById("codesBody"))renderCodes()}
+function renderStats(){
+ let d=today(),a=Object.values(db.attendance[d]||{}),p=a.filter(x=>x==='P').length,f=a.filter(x=>x==='F').length,r=a.filter(x=>x==='R').length,pts=db.points.reduce((s,x)=>s+Number(x.points),0);
+ document.getElementById('stats').innerHTML=[['👥','Alumnos',db.students.length],['✅','Presentes hoy',p],['❌','Faltas hoy',f],['⭐','Puntos acumulados',pts]].map(x=>`<div class="card stat"><span class="emoji">${x[0]}</span><small>${x[1]}</small><strong>${x[2]}</strong></div>`).join('')
+}
+function renderSchedule(){
+ let day=dayNames[new Date().getDay()], target=day==='domingo'||day==='sábado'?'lunes':day, arr=db.schedule[target]||[];
+ document.getElementById('schedule').innerHTML=Object.entries(db.schedule).map(([d,a])=>`<div class="card day ${d===target?'todayday':''}"><h3>${d.toUpperCase()}</h3>${a.map(x=>`<div class="slot ${x[1]==='RECREO'?'recess':''}"><b>${x[0]}</b><span>${x[1]}</span></div>`).join('')}</div>`).join('')
+}
+function renderToday(){let d=dayNames[new Date().getDay()],a=db.schedule[d]||[];document.getElementById('todayList').innerHTML=a.length?a.map(x=>`<div style="padding:9px;border-bottom:1px solid var(--line)"><b>${x[0]}</b> · ${x[1]}</div>`).join(''):'Hoy no hay clases.';let m=db.currentMystery;document.getElementById('homeMystery').innerHTML=m?`<div style="text-align:center;padding:20px;font-size:28px">${m.revealed?'🎉 '+nm(m.studentId):'🔒 OCULTO'}<br><small>${m.revealed?'Revelado':'Esperando después del recreo'}</small></div>`:'<div class="empty">Todavía no has elegido al alumno.</div>'}
+function renderStudents(){let q=(document.getElementById('search')?.value||'').toLowerCase();let list=db.students.filter(s=>s.name.toLowerCase().includes(q));document.getElementById('students').innerHTML=list.map(s=>{let pts=db.points.filter(x=>x.studentId==s.id).reduce((a,x)=>a+Number(x.points),0),at=Object.values(db.attendance).filter(x=>x[s.id]==='P').length;return `<div class="card student"><div class="shead"><div class="avatar">${initials(s.name)}</div><div><h3>${s.name}</h3><small>6°A</small></div></div><div class="studentstats"><div>Asistencias<b>${at}</b></div><div>Puntos<b>${pts}</b></div><button class="btn gray" onclick="editStudent(${s.id})">Editar</button></div></div>`}).join('')||'<div class="card empty">No hay alumnos que coincidan.</div>'}
+function openStudent(id){let s=db.students.find(x=>x.id==id)||{name:''};modal(`<h2>${id?'Editar':'Agregar'} alumno</h2><div class="form"><label>Nombre completo</label><input id="sn" value="${s.name}"><div style="margin-top:16px"><button class="btn" onclick="saveStudent(${id||0})">Guardar</button> <button class="btn gray" onclick="closeModal()">Cancelar</button></div></div>`)}
+function editStudent(id){openStudent(id)}
+function saveStudent(id){let n=document.getElementById('sn').value.trim();if(!n)return;if(id)db.students.find(x=>x.id==id).name=n;else db.students.push({id:Date.now(),name:n,group:'6°A'});save();closeModal();renderAll()}
+function renderAttendance(){let d=document.getElementById('attDate').value||today(),m=db.attendance[d]||{};document.getElementById('attendanceBody').innerHTML=db.students.map(s=>`<tr><td><b>${s.name}</b></td><td>${m[s.id]==='P'?'<span class="badge ok">Presente</span>':m[s.id]==='F'?'<span class="badge no">Falta</span>':m[s.id]==='R'?'<span class="badge late">Retardo</span>':'—'}</td><td><button class="btn aqua" onclick="att('${d}',${s.id},'P')">✓</button> <button class="btn pink" onclick="att('${d}',${s.id},'F')">F</button> <button class="btn yellow" onclick="att('${d}',${s.id},'R')">R</button></td></tr>`).join('')}
+function att(d,id,v){db.attendance[d]??={};db.attendance[d][id]=v;save();renderAll()}
+function markAll(v){let d=document.getElementById('attDate').value;db.attendance[d]??={};db.students.forEach(s=>db.attendance[d][s.id]=v);save();renderAll()}
+function renderWork(){let d=document.getElementById('workDate').value||today(),sub=document.getElementById('subjectFilter').value,a=db.work.filter(x=>x.date===d&&(!sub||x.subject===sub));document.getElementById('workBody').innerHTML=a.length?a.map(x=>`<tr><td>${fmt(x.date)}</td><td>${nm(x.studentId)}</td><td>${x.subject}</td><td>${x.task}</td><td>${x.result}</td><td>${x.note||'—'}</td></tr>`).join(''):'<tr><td colspan="6" class="empty">No hay registros para esta fecha.</td></tr>'}
+function openWork(){modal(`<h2>📚 Registrar trabajo</h2><div class="form"><label>Alumno</label><select id="ws">${db.students.map(s=>`<option value="${s.id}">${s.name}</option>`).join('')}</select><label>Materia</label><select id="wsub">${subjects.map(s=>`<option>${s}</option>`).join('')}</select><label>Actividad</label><input id="wt" placeholder="Ej. Ejercicios, exposición, cuaderno..."><label>Resultado</label><select id="wr"><option>Completó</option><option>En proceso</option><option>Incompleto</option><option>No realizó</option></select><label>Observación</label><textarea id="wn"></textarea><button class="btn" style="margin-top:14px" onclick="saveWork()">Guardar</button></div>`)}
+function saveWork(){db.work.push({date:document.getElementById('workDate').value||today(),studentId:ws.value,subject:wsub.value,task:wt.value,result:wr.value,note:wn.value});save();closeModal();renderAll()}
+
+function avgRubric(id,type){
+  let vals=[];
+  if(type==='trabajos'){
+    vals=db.work.filter(x=>x.studentId==id).map(x=>resultValue(x.result));
+  }else if(type==='tareas'){
+    vals=db.tasks.filter(x=>x.studentId==id).map(x=>Number(x.score)||0);
+  }else if(type==='examen'){
+    vals=db.grades.filter(x=>x.studentId==id&&x.type==='examen').map(x=>Number(x.score)||0);
+  }else if(type==='comportamiento'){
+    vals=db.grades.filter(x=>x.studentId==id&&x.type==='comportamiento').map(x=>Number(x.score)||0);
+  }else if(type==='participacion'){
+    vals=db.grades.filter(x=>x.studentId==id&&x.type==='participacion').map(x=>Number(x.score)||0);
+  }else if(type==='asistencia'){
+    let dates=Object.keys(db.attendance);
+    let present=dates.filter(d=>db.attendance[d]?.[id]==='P').length;
+    let total=dates.filter(d=>db.attendance[d]?.[id]).length;
+    return total ? present/total*100 : 0;
+  }
+  return vals.length ? vals.reduce((a,b)=>a+b,0)/vals.length : 0;
+}
+function resultValue(r){return r==='Completó'?100:r==='En proceso'?70:r==='Incompleto'?50:0}
+function maxRubric(type){
+  let vals=db.students.map(s=>avgRubric(s.id,type)).filter(v=>v>0);
+  return Math.max(...vals,100);
+}
+function pctRubric(id,type){
+  let raw=avgRubric(id,type), max=maxRubric(type);
+  return max ? Math.min(100,raw/max*100) : 0;
+}
+function finalGrade(id){
+  return pctRubric(id,'trabajos')*.40 +
+         pctRubric(id,'tareas')*.10 +
+         pctRubric(id,'examen')*.30 +
+         pctRubric(id,'comportamiento')*.10 +
+         pctRubric(id,'participacion')*.05 +
+         pctRubric(id,'asistencia')*.05;
+}
+function renderGrades(){
+  let q=(document.getElementById('gradeSearch')?.value||'').toLowerCase();
+  let list=db.students.filter(s=>s.name.toLowerCase().includes(q));
+  document.getElementById('gradesBody').innerHTML=list.map(s=>{
+    let vals=['trabajos','tareas','examen','comportamiento','participacion','asistencia'];
+    let cells=vals.map(v=>`<td>${pctRubric(s.id,v).toFixed(1)}%</td>`).join('');
+    return `<tr><td><b>${s.name}</b></td>${cells}<td><span class="badge ${finalGrade(s.id)>=70?'ok':'no'}">${finalGrade(s.id).toFixed(1)}%</span></td></tr>`;
+  }).join('') || '<tr><td colspan="8" class="empty">No hay alumnos que coincidan.</td></tr>';
+}
+function renderTasks(){
+  document.getElementById('tasksBody').innerHTML=db.tasks.length?[...db.tasks].reverse().map(x=>
+    `<tr><td>${fmt(x.date)}</td><td>${nm(x.studentId)}</td><td>${x.task}</td><td>${x.score}%</td><td>${x.note||'—'}</td></tr>`
+  ).join(''):'<tr><td colspan="5" class="empty">Aún no hay tareas registradas.</td></tr>';
+}
+function openTask(){
+  modal(`<h2>📝 Registrar tarea</h2><div class="form">
+  <label>Alumno</label><select id="ts">${db.students.map(s=>`<option value="${s.id}">${s.name}</option>`).join('')}</select>
+  <label>Fecha</label><input type="date" id="td" value="${today()}">
+  <label>Tarea</label><input id="tt" placeholder="Ej. Página 25, investigación...">
+  <label>Resultado (%)</label><input id="tq" type="number" min="0" max="100" value="100">
+  <label>Observación</label><textarea id="tn"></textarea>
+  <button class="btn" style="margin-top:14px" onclick="saveTask()">Guardar</button></div>`);
+}
+function saveTask(){
+  db.tasks.push({date:td.value||today(),studentId:ts.value,task:tt.value,score:Number(tq.value)||0,note:tn.value});
+  save();closeModal();renderAll();
+}
+function openGrade(){
+  modal(`<h2>📊 Registrar calificación</h2><div class="form">
+  <label>Alumno</label><select id="gs">${db.students.map(s=>`<option value="${s.id}">${s.name}</option>`).join('')}</select>
+  <label>Rubro</label><select id="gt"><option value="examen">Examen</option><option value="comportamiento">Comportamiento</option><option value="participacion">Participación</option></select>
+  <label>Calificación (%)</label><input id="gq" type="number" min="0" max="100" value="100">
+  <button class="btn" style="margin-top:14px" onclick="saveGrade()">Guardar</button></div>`);
+}
+function saveGrade(){
+  db.grades.push({date:today(),studentId:gs.value,type:gt.value,score:Number(gq.value)||0});
+  save();closeModal();renderAll();
+}
+
+
+function codeMap(){return JSON.parse(localStorage.getItem('registro_6A_parent_codes')||'{}')}
+function saveCodeMap(m){localStorage.setItem('registro_6A_parent_codes',JSON.stringify(m))}
+function makeCode(){return '6A-'+Math.random().toString(36).slice(2,7).toUpperCase()+'-'+Math.floor(10+Math.random()*90)}
+function generateCodes(){
+  let m=codeMap();
+  db.students.forEach(s=>{if(!Object.values(m).includes(s.id))m[makeCode()]=s.id});
+  saveCodeMap(m);renderCodes();alert('Códigos generados. Puedes imprimir la lista y entregar cada código a la familia correspondiente.');
+}
+function renderCodes(){
+  let m=codeMap(), entries=Object.entries(m);
+  document.getElementById('codesBody').innerHTML=entries.length?entries.map(([c,id])=>`<tr><td>${nm(id)}</td><td><b style="font-size:17px;letter-spacing:1px">${c}</b></td></tr>`).join(''):'<tr><td colspan="2" class="empty">Aún no hay códigos. Presiona “Generar códigos”.</td></tr>';
+}
+function printCodes(){window.print()}
+function clearCodes(){if(confirm('¿Borrar todos los códigos? Tendrás que generarlos nuevamente.')){localStorage.removeItem('registro_6A_parent_codes');renderCodes()}}
+
+function renderBehavior(){document.getElementById('behaviorBody').innerHTML=db.behavior.length?[...db.behavior].reverse().map(x=>`<tr><td>${fmt(x.date)}</td><td>${nm(x.studentId)}</td><td>${x.type}</td><td>${x.note}</td></tr>`).join(''):'<tr><td colspan="4" class="empty">Aún no hay observaciones.</td></tr>'}
+function openBehavior(){modal(`<h2>🤝 Registrar comportamiento</h2><div class="form"><label>Alumno</label><select id="bs">${db.students.map(s=>`<option value="${s.id}">${s.name}</option>`).join('')}</select><label>Tipo</label><select id="bt"><option>Reconocimiento</option><option>Positivo</option><option>Llamado de atención</option><option>Incidencia</option></select><label>Observación</label><textarea id="bn"></textarea><button class="btn" style="margin-top:14px" onclick="saveBehavior()">Guardar</button></div>`)}
+function saveBehavior(){db.behavior.push({date:today(),studentId:bs.value,type:bt.value,note:bn.value});save();closeModal();renderAll()}
+function renderProjects(){document.getElementById('projects').innerHTML=db.projects.length?db.projects.map(p=>`<div class="card"><h3>${p.title}</h3><p>${p.note||''}</p><span class="badge ${p.status==='Completado'?'ok':'late'}">${p.status}</span><p><small>Entrega: ${p.due||'Sin fecha'}</small></p></div>`).join(''):'<div class="card empty">Aún no hay proyectos registrados.</div>'}
+function openProject(){modal(`<h2>📁 Nuevo proyecto</h2><div class="form"><label>Nombre</label><input id="pt"><label>Materia</label><select id="ps">${subjects.map(s=>`<option>${s}</option>`).join('')}</select><label>Entrega</label><input type="date" id="pd"><label>Estado</label><select id="px"><option>En curso</option><option>Pendiente</option><option>Completado</option></select><label>Descripción</label><textarea id="pn"></textarea><button class="btn" style="margin-top:14px" onclick="saveProject()">Guardar</button></div>`)}
+function saveProject(){db.projects.push({title:pt.value,subject:ps.value,due:pd.value,status:px.value,note:pn.value});save();closeModal();renderAll()}
+function renderPoints(){document.getElementById('pointsBody').innerHTML=db.points.length?[...db.points].reverse().map(x=>`<tr><td>${fmt(x.date)}</td><td>${nm(x.studentId)}</td><td><span class="badge ok">+${x.points}</span></td><td>${x.reason}</td></tr>`).join(''):'<tr><td colspan="4" class="empty">Aún no hay puntos.</td></tr>'}
+function openPoints(){modal(`<h2>⭐ Otorgar puntos</h2><div class="form"><label>Alumno</label><select id="pts">${db.students.map(s=>`<option value="${s.id}">${s.name}</option>`).join('')}</select><label>Puntos</label><input id="pnm" type="number" min="0" value="1"><label>Motivo</label><input id="pr" placeholder="Participación, material, esfuerzo..."><button class="btn" style="margin-top:14px" onclick="savePoints()">Guardar</button></div>`)}
+function savePoints(){db.points.push({date:today(),studentId:pts.value,points:Number(pnm.value)||0,reason:pr.value});save();closeModal();renderAll()}
+function pickMystery(){if(!db.students.length)return;let recent=new Set(db.mystery.slice(-db.students.length).map(x=>x.studentId)),op=db.students.filter(s=>!recent.has(s.id));if(!op.length)op=[...db.students];let s=op[Math.floor(Math.random()*op.length)];db.currentMystery={studentId:s.id,date:today(),revealed:false,points:null};save();renderAll()}
+function revealMystery(){if(!db.currentMystery)return alert('Primero elige al alumno incógnito.');db.currentMystery.revealed=true;save();renderAll()}
+function finishMystery(p){let m=db.currentMystery;if(!m||!m.revealed)return;db.currentMystery.points=p;db.mystery.push({...m});if(p)db.points.push({date:today(),studentId:m.studentId,points:p,reason:'Alumno incógnito'});save();renderAll()}
+function renderMystery(){let m=db.currentMystery;document.getElementById('mName').textContent=m?(m.revealed?'🎉 '+nm(m.studentId):'🔒 OCULTO'):'🔒 OCULTO';document.getElementById('mText').textContent=m?(m.revealed?'¡Se reveló el alumno incógnito!':'Su identidad permanece oculta hasta después del recreo.'):'Elige un alumno al azar y mantén su identidad en secreto hasta después del recreo.';document.getElementById('mActions').style.display=m?.revealed&&!m.points?'block':'none';document.getElementById('mHistory').innerHTML=db.mystery.length?[...db.mystery].reverse().map(x=>`<tr><td>${fmt(x.date)}</td><td>${nm(x.studentId)}</td><td>${x.points??'—'}</td></tr>`).join(''):'<tr><td colspan="3" class="empty">Sin historial.</td></tr>'}
+function modal(c){document.getElementById('modalbox').innerHTML=c;document.getElementById('modal').classList.add('show')}function closeModal(){document.getElementById('modal').classList.remove('show')}document.getElementById('modal').onclick=e=>{if(e.target.id==='modal')closeModal()}
+document.getElementById('attDate').value=today();document.getElementById('workDate').value=today();document.getElementById('now').textContent=new Date().toLocaleDateString('es-MX',{weekday:'short',day:'numeric',month:'short'});document.getElementById('date').textContent=new Date().toLocaleDateString('es-MX',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+document.getElementById('subjectFilter').innerHTML='<option value="">Todas las materias</option>'+subjects.map(s=>`<option>${s}</option>`).join('');
+renderAll();
+</script></body></html>
